@@ -26,7 +26,7 @@ SECRET_KEY = '#52c^dpw-)paur-w4l2@7h-)s*ne+l+_5-*yd0ez$u#n4+r^m1'
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
 ALLOWED_HOSTS = [
-    'ec2-52-66-206-231.ap-south-1.compute.amazonaws.com/',
+    'ec2-52-66-206-231.ap-south-1.compute.amazonaws.com',
     '127.0.0.1'
 ]
 
